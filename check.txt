@@ -1,0 +1,33 @@
+iCloud:
+  - icloud account reset in system settings (you’re able to perform a reset), match serial on box + laptop + apple website here https://checkcoverage.apple.com/
+  - System Settings → Apple ID → iCloud → Find My Mac — should be OFF if they’ve signed out.
+Test:
+  - Wi-Fi
+  - Bluetooth
+  - speakers
+  - camera
+  - keyboard
+  - trackpad.
+Check display/screen carefully 
+  - (if it has been replaced)  
+  - for dead pixels
+  - discoloration
+  - flickering.
+Physical condition:
+  - Check bottom screws — stripped or mismatched screws can mean tampering.
+  - Inspect for dents/scratches — even tiny ones reveal handling.
+  - Open/close hinge — should be smooth, no squeaks or looseness.
+  - Look at palm rest & trackpad for shine (wear).
+  - Test all USB-C/USB/HDMI ports with real devices.
+
+
+Brew install:
+  
+```
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+```
+  
+add to path by 
+nano ~/.zshrc
+
+`brew install smartmontools`
